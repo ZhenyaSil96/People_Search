@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,800&family=Raleway:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <link rel="stylesheet" href="css/zero.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="header__icon-but">
+                    <!-- <img src="images/img15.png" alt="lupa"> -->
+                    <div class="header__button">
+                        <div class="yakor__button"><a href="#forma" class="yakor">Найти человека</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section__form">
+        <div class="container">
+            <div class="form__main">
+                <div class="form__items">
+                    <div class="form__text">
+                        <div class="form__title-h1">
+                            <h1>Добро пожаловать на PEOPLE SEARCH</h1>
+                            <div class="line"></div>
+                        </div>
+                        <div class="form__text-p">
+                            <p>
+                                Сайт People Search поможет вам найти
+                                нужного человека в сети интернет или
+                                узнать интересующую информацию о необходимом человеке.
+                            </p>
+                            <p>Введите данные о человеке: имя, фамилию. Для более точного поиска,
+                                введите страну, город, год рождения и мы найдем соответствующую информацию.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form__img">
+                        <img src="images/img1.png" alt="images">
+                    </div>
+                </div>
+            </div>
+            <div class="search__form" id="forma">
+                <div class="search__form__title">
+                    <h2>Заполните форму для успешного поиска</h2>
+                </div>
+                <div class="search__form-items">
+                    <form class="search__form-main" action="#" method="get">
+                        <div class="serach__form__name-lastname">
+                            <div class="search__form-item search__form-name">
+                                Имя: <input type="text" name="first_name" required />
+                            </div>
+                            <div class="search__form-item search__form-lastname">
+                                Фамилия: <input type="text" name="last_name" required />
+                            </div>
+                        </div>
+                        <div class="search__form__country-city">
+                            <div class="search__form-item search__form-country">
+                                Страна:<input type="text" name="country" required />
+                            </div>
+                            <div class="search__form-item search__form-city">
+                                Город:<input type="text" name="city" required />
+                            </div>
+                        </div>
+                        <div class="search__form-DateBirth">
+                            <h3>Дата Рождения</h3>
+                            <div class="search__form__Date-Month-Year">
+                                <select class="search__form__select-date" name="select">
+                                    <option value="value1" selected>День</option>
+                                    <option value="value1">1</option>
+                                    <option value="value2">2</option>
+                                    <option value="value3">3</option>
+                                    <option value="value1">4</option>
+                                    <option value="value2">5</option>
+                                    <option value="value3">6</option>
+                                    <option value="value1">7</option>
+                                    <option value="value2">8</option>
+                                    <option value="value3">9</option>
+                                    <option value="value1">10</option>
+                                    <option value="value2">11</option>
+                                    <option value="value3">12</option>
+                                    <option value="value1">13</option>
+                                    <option value="value2">14</option>
+                                    <option value="value3">15</option>
+                                    <option value="value1">16</option>
+                                    <option value="value2">17</option>
+                                    <option value="value3">18</option>
+                                    <option value="value1">19</option>
+                                    <option value="value2">20</option>
+                                    <option value="value3">21</option>
+                                    <option value="value1">22</option>
+                                    <option value="value2">23</option>
+                                    <option value="value3">24</option>
+                                    <option value="value1">25</option>
+                                    <option value="value2">26</option>
+                                    <option value="value3">27</option>
+                                    <option value="value1">28</option>
+                                    <option value="value2">29</option>
+                                    <option value="value3">30</option>
+                                    <option value="value1">31</option>
+                                </select>
+
+                                <select class="search__form__select-month" name="select">
+                                    <option value="value1" selected>Месяц</option>
+                                    <option value="value1">Январь</option>
+                                    <option value="value2">Февраль</option>
+                                    <option value="value3">Март</option>
+                                    <option value="value1">Апрель</option>
+                                    <option value="value2">Май</option>
+                                    <option value="value3">Июнь</option>
+                                    <option value="value1">Июль</option>
+                                    <option value="value2">Август</option>
+                                    <option value="value3">Сентябрь</option>
+                                    <option value="value1">Октябрь</option>
+                                    <option value="value2">Ноябрь</option>
+                                    <option value="value3">Декабрь</option>
+                                </select>
+
+                                <select class="search__form__select-year" name="select">
+                                    <option value="value1" selected>Год</option>
+                                    <option value="value1">2023</option>
+                                    <option value="value2">2022</option>
+                                    <option value="value3">2021</option>
+                                    <option value="value3">2020</option>
+                                    <option value="value3">2019</option>
+                                    <option value="value3">2018</option>
+                                    <option value="value3">2017</option>
+                                    <option value="value3">2016</option>
+                                    <option value="value3">2015</option>
+                                    <option value="value3">2014</option>
+                                    <option value="value3">2013</option>
+                                    <option value="value3">2012</option>
+                                    <option value="value3">2011</option>
+                                    <option value="value3">2010</option>
+                                    <option value="value3">2009</option>
+                                    <option value="value3">2008</option>
+                                    <option value="value3">2007</option>
+                                    <option value="value3">2006</option>
+                                    <option value="value3">2005</option>
+                                    <option value="value3">2004</option>
+                                    <option value="value3">2003</option>
+                                    <option value="value3">2002</option>
+                                    <option value="value3">2001</option>
+                                    <option value="value3">2000</option>
+                                    <option value="value3">1999</option>
+                                    <option value="value3">1998</option>
+                                    <option value="value3">1997</option>
+                                    <option value="value3">1996</option>
+                                    <option value="value3">1995</option>
+                                    <option value="value3">1994</option>
+                                    <option value="value3">1993</option>
+                                    <option value="value3">1992</option>
+                                    <option value="value3">1991</option>
+                                    <option value="value3">1990</option>
+                                    <option value="value3">1989</option>
+                                    <option value="value3">1988</option>
+                                    <option value="value3">1987</option>
+                                    <option value="value3">1986</option>
+                                    <option value="value3">1985</option>
+                                    <option value="value3">1984</option>
+                                    <option value="value3">1983</option>
+                                    <option value="value3">1982</option>
+                                    <option value="value3">1981</option>
+                                    <option value="value3">1980</option>
+                                    <option value="value3">1979</option>
+                                    <option value="value3">1978</option>
+                                    <option value="value3">1977</option>
+                                    <option value="value3">1976</option>
+                                    <option value="value3">1975</option>
+                                    <option value="value3">1974</option>
+                                    <option value="value3">1973</option>
+                                    <option value="value3">1972</option>
+                                    <option value="value3">1971</option>
+                                    <option value="value3">1970</option>
+                                    <option value="value3">1969</option>
+                                    <option value="value3">1968</option>
+                                    <option value="value3">1967</option>
+                                    <option value="value3">1966</option>
+                                    <option value="value3">1965</option>
+                                    <option value="value3">1964</option>
+                                    <option value="value3">1963</option>
+                                    <option value="value3">1962</option>
+                                    <option value="value3">1961</option>
+                                    <option value="value3">1960</option>
+                                    <option value="value3">1959</option>
+                                    <option value="value3">1958</option>
+                                    <option value="value3">1957</option>
+                                    <option value="value3">1956</option>
+                                    <option value="value3">1954</option>
+                                    <option value="value3">1953</option>
+                                    <option value="value3">1952</option>
+                                    <option value="value3">1951</option>
+                                    <option value="value3">1950</option>
+                                    <option value="value3">1949</option>
+                                    <option value="value3">1948</option>
+                                    <option value="value3">1947</option>
+                                    <option value="value3">1946</option>
+                                    <option value="value3">1945</option>
+                                    <option value="value3">1944</option>
+                                    <option value="value3">1943</option>
+                                    <option value="value3">1942</option>
+                                    <option value="value3">1941</option>
+                                    <option value="value3">1940</option>
+                                    <option value="value3">1939</option>
+                                    <option value="value3">1938</option>
+                                    <option value="value3">1937</option>
+                                    <option value="value3">1936</option>
+                                    <option value="value3">1935</option>
+                                    <option value="value3">1934</option>
+                                    <option value="value3">1933</option>
+                                    <option value="value3">1932</option>
+                                    <option value="value3">1931</option>
+                                    <option value="value3">1930</option>
+                                    <option value="value3">1929</option>
+                                    <option value="value3">1928</option>
+                                    <option value="value3">1927</option>
+                                    <option value="value3">1926</option>
+                                    <option value="value3">1925</option>
+                                    <option value="value3">1924</option>
+                                    <option value="value3">1923</option>
+                                    <option value="value3">1922</option>
+                                    <option value="value3">1921</option>
+                                    <option value="value3">1920</option>
+                                    <option value="value3">1919</option>
+                                    <option value="value3">1918</option>
+                                    <option value="value3">1917</option>
+                                    <option value="value3">1916</option>
+                                    <option value="value3">1915</option>
+                                    <option value="value3">1914</option>
+                                    <option value="value3">1913</option>
+                                    <option value="value3">1912</option>
+                                    <option value="value3">1911</option>
+                                    <option value="value3">1910</option>
+                                    <option value="value3">1909</option>
+                                    <option value="value3">1908</option>
+                                    <option value="value3">1907</option>
+                                    <option value="value3">1906</option>
+                                    <option value="value3">1905</option>
+                                    <option value="value3">1904</option>
+                                    <option value="value3">1903</option>
+                                    <option value="value3">1902</option>
+                                    <option value="value3">1901</option>
+                                    <option value="value3">1900</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="search__form-age">
+                            <h3>Возраст</h3>
+                            <div class="search__from__age-from-to">
+                                <div class="search__from__age-from">
+                                    От:<input type="text" name="from" />
+                                </div>
+                                <div class="search__from__age-to">
+                                    До:<input type="text" name="to" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="search__form-button">
+                            <input class="search__form-button-input" type="submit" value="Поиск" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="information__database">
+        <div class="container">
+            <div class="information__database-title">
+                <h2>В нашей базе данных имееться:</h2>
+            </div>
+            <div class="information__database-text-img">
+                <div class="information__database-items">
+                    <div class="information__database-users">
+                        <img src="images/user.png" alt="user">
+                        <div class="out-1 out-num">
+                            <h4>0</h4>
+                        </div>
+                        <p>Пользователей</p>
+                    </div>
+                    <div class="information__database-country">
+                        <img src="images/planet-earth.png" alt="country">
+                        <div class="out-2 out-num">
+                            <h4>0</h4>
+                        </div>
+                        <p>Стран</p>
+                    </div>
+                    <div class="information__database-city">
+                        <img src="images/skyscraper.png" alt="city">
+                        <div class="out-3 out-num">
+                            <h4>0</h4>
+                        </div>
+                        <p>Городов</p>
+                    </div>
+                </div>
+                <div class="information__database-img">
+                    <img src="images/img9.png" alt="images">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="question__answer">
+        <div class="container">
+            <div class="question__answer-title">
+                <h2>Вопрос - Ответ</h2>
+            </div>
+            <div class="question__answer-block">
+                <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <symbol viewBox="0 0 24 24" id="expand-more">
+                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+                            <path d="M0 0h24v24H0z" fill="none" />
+                        </symbol>
+                        <symbol viewBox="0 0 24 24" id="close">
+                            <path
+                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                            <path d="M0 0h24v24H0z" fill="none" />
+                        </symbol>
+                    </svg>
+                </div>
+                <details open>
+                    <summary>
+                        - Какова стоимость ваших услуг?
+                        <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+                        </svg>
+                        <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+                        </svg>
+                    </summary>
+                    <p>
+                        У нас нет платы за использование сайта. Вам доступны все функции полностью бесплатно, независимо
+                        от того, для каких целей вы их используете: коммерческих или личных.
+                        Кроме того, не нужно регистрироваться на нашем сайте. </p>
+                </details>
+                <details>
+                    <summary>
+                        - Какие ограничения на количество поисковых запросов?
+                        <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+                        </svg>
+                        <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+                        </svg>
+                    </summary>
+                    <p>У нас нет ограничений на количество поисковых запросов.
+                        Вы можете выполнять неограниченное число поисков на нашем сайте.
+                        Однако, в случае, если ваш IP-адрес создает значительную нагрузку или превышает разумные
+                        пределы,
+                        временная блокировка может быть применена.</p>
+                </details>
+                <details>
+                    <summary>
+                        - Каким наилучшим способом можно найти человека в интернете?
+                        <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" />
+                        </svg>
+                        <svg class="control-icon control-icon-close" width="24" height="24" role="presentation">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" />
+                        </svg>
+                    </summary>
+                    <p> У вас есть несколько вариантов подхода к поиску человека в интернете.
+
+                        Первый способ - самостоятельный поиск через поисковые системы
+                        и социальные сети. Вы сможете собрать максимум информации,
+                        но это может потребовать значительного
+                        времени и усилий, так как придется искать данные в разных источниках.
+
+                        Второй способ, вы можете воспользоваться специализированными сервисами, такими как сайт People
+                        Search
+                        Здесь вы сможете получить консолидированную информацию о нужном человеке всего за несколько
+                        секунд.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+    <footer class="footer__search__form">
+        <div class="container">
+            <div class="footer__search__form-items">
+                <div class="footer__search__form-map">
+                    <a href="SiteMap.html">Карта сайта</a>
+                </div>
+                <div class="footer__search__form-text">
+                    <p>
+                        © 2023 People search - поиск публичной информации о пользователях VK.
+                        Мы не осуществляем хранение личных данных.
+                        Случайные люди: Алишеров Алишер Ананьев Вячеслав Марков Стас Абдуллаева Александра Umarov Nurik
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/yakor.js"></script>
+</body>
+
+</html>

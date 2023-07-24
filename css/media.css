@@ -1,0 +1,480 @@
+@media screen and (min-width: 320px) {
+    /* .container {
+        max-width: 300px;
+    } */
+}
+
+
+@media screen and (min-width: 480px) {
+    /* .container {
+        max-width: 450px;
+    } */
+}
+
+@media screen and (min-width: 768px) {
+    /* .container {
+        max-width: 750px;
+    } */
+}
+
+@media screen and (min-width: 992px) {
+    /* .container {
+        max-width: 970px;
+    } */
+}
+
+@media screen and (min-width: 1200px) {
+    /* .container {
+        max-width: 1170px;
+    } */
+}
+
+@media screen and (min-width: 1600px) {
+    /* .container {
+        max-width: 1400px;
+    } */
+}
+
+@media screen and ((min-width: 1200px) and (max-width: 1600px)) {
+    .form__img img {
+        width: 500px;
+    }
+
+    .information__database-img img {
+        width: 500px;
+    }
+
+    .information__database-users,
+    .information__database-country,
+    .information__database-city {
+        width: 180px;
+    }
+
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 992px) and (max-width: 1200px)) {
+    .form__img img {
+        width: 400px;
+    }
+
+    .form__title-h1 {
+        font-size: 17px;
+        font-weight: 900;
+    }
+
+    .form__text-p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .information__database-img img {
+        width: 400px;
+    }
+
+    .information__database-users,
+    .information__database-country,
+    .information__database-city {
+        width: 170px;
+    }
+
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 768px) and (max-width: 992px)) {
+    .form__items {
+        padding: 0 0;
+    }
+
+    .form__img img {
+        width: 400px;
+    }
+
+    .form__title-h1 {
+        font-size: 25px;
+    }
+
+    .form__text-p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .search__form__title {
+        font-size: 30px;
+    }
+
+    .search__form__title h2 {
+        padding-top: 50px;
+    }
+
+    .search__form-main {
+        width: 700px;
+    }
+
+    .search__form-item {
+        width: 300px;
+        padding: 10px 5px;
+    }
+
+    .search__form-item input {
+        font-size: 20px;
+        width: 199px;
+    }
+
+    .search__form__select-date,
+    .search__form__select-month,
+    .search__form__select-year {
+        width: 100px;
+        padding: 10px 5px;
+    }
+
+    .search__from__age-from,
+    .search__from__age-to {
+        width: 245px;
+        padding: 0px 5px;
+    }
+
+    .search__from__age-from input,
+    .search__from__age-to input {
+        font-size: 20px;
+        width: 185px;
+    }
+
+    .search__form-button-input {
+        padding: 13px 10px 10px 10px;
+    }
+
+    .information__database-text-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .information__database-title {
+        font-size: 30px;
+    }
+
+    .information__database-img img {
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    .information__database-items {
+        margin-top: 30px;
+    }
+
+    .information__database-users,
+    .information__database-country,
+    .information__database-city {
+        width: 170px;
+    }
+
+    .question__answer-title {
+        font-size: 30px;
+    }
+
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 480px) and (max-width: 768px)) {
+    .header__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__title-h1 h1 {
+        padding-top: 20px;
+    }
+
+    .form__items {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .form__img img {
+        width: 350px;
+    }
+
+    .form__title-h1 {
+        font-size: 18px;
+    }
+
+    .form__text-p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 450px;
+    }
+
+    .form__img img {
+        width: 400px;
+    }
+
+    .search__form__title {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .search__form__title h2 {
+        padding-top: 50px;
+    }
+
+    .search__form-main {
+        width: 450px;
+    }
+
+    .serach__form__name-lastname,
+    .search__form__country-city {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search__form-lastname {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .search__form-city {
+        margin-left: 0;
+    }
+
+    .search__form-item {
+        width: 300px;
+        padding: 10px 5px;
+    }
+
+    .search__form-item input {
+        font-size: 20px;
+        width: 199px;
+    }
+
+    .search__form__select-date,
+    .search__form__select-month,
+    .search__form__select-year {
+        width: 125px;
+        padding: 10px 5px;
+    }
+
+    .search__from__age-from,
+    .search__from__age-to {
+        width: 145px;
+        padding: 0px 5px;
+    }
+
+    .search__from__age-from input,
+    .search__from__age-to input {
+        font-size: 20px;
+        width: 95px;
+        padding: 10px 0;
+    }
+
+    .search__form-button-input {
+        padding: 10px 7px 7px 7px;
+    }
+
+    .information__database-text-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .information__database-title {
+        font-size: 20px;
+    }
+
+    .information__database-img img {
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    .information__database-items {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .information__database-country,
+    .information__database-city {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .information__database-users,
+    .information__database-country,
+    .information__database-city {
+        width: 200px;
+    }
+
+    .question__answer-title {
+        font-size: 20px;
+    }
+
+    details {
+        width: 80%;
+    }
+
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 320px) and (max-width: 480px)) {
+    .header__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__title-h1 h1 {
+        padding-top: 20px;
+    }
+
+    .header__logo img {
+        width: 300px;
+    }
+
+    .form__items {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .form__img img {
+        width: 300px;
+    }
+
+    .form__title-h1 {
+        font-size: 18px;
+    }
+
+    .form__text-p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+    .search__form__title {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .search__form__title h2 {
+        padding-top: 50px;
+    }
+
+    .search__form-main {
+        width: 300px;
+    }
+
+    .serach__form__name-lastname,
+    .search__form__country-city {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search__form-lastname {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .search__form-city {
+        margin-left: 0;
+    }
+
+    .search__form-item {
+        width: 255px;
+        padding: 10px 5px;
+    }
+
+    .search__form-item input {
+        font-size: 20px;
+        width: 150px;
+    }
+
+    .search__form__Date-Month-Year {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search__form__select-date,
+    .search__form__select-month,
+    .search__form__select-year {
+        width: 225px;
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+    .search__form__select-date,
+    .search__form__select-month {
+        margin-bottom: 10px;
+    }
+
+    .search__from__age-from,
+    .search__from__age-to {
+        width: 125px;
+        padding: 0px 5px;
+    }
+
+    .search__from__age-from input,
+    .search__from__age-to input {
+        font-size: 20px;
+        width: 65px;
+        padding: 6px 0;
+    }
+
+    .search__form-button-input {
+        padding: 10px 7px 7px 7px;
+    }
+
+    .information__database-text-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .information__database-title {
+        font-size: 20px;
+    }
+
+    .information__database-img img {
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .information__database-items {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .information__database-country,
+    .information__database-city {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .information__database-users,
+    .information__database-country,
+    .information__database-city {
+        width: 200px;
+    }
+
+    .question__answer-title {
+        font-size: 20px;
+    }
+
+    details {
+        width: 80%;
+    }
+
+    .footer__search__form-text {
+        text-align: center;
+    }
+}

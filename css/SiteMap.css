@@ -1,0 +1,122 @@
+body {
+    min-height: 100vh;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #000;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    align-items: flex-end;
+}
+
+.header__icon-but p {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+}
+
+
+.header__logo img {
+    width: 350px;
+}
+
+.Site__Map-title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
+}
+
+.Site__Map-list {
+    padding: 20px 20px;
+    border: 2px solid #565657;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(217, 216, 216);
+    margin: 50px 20px;
+}
+
+.Site__Map-content {
+    text-align: center;
+}
+
+.Site__Map-content-li a {
+    font-size: 18px;
+    color: #000;
+    margin-right: 8px;
+    text-decoration: none;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Site__Map-content-li a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.Site__Map-paggination-wrapper {
+    text-align: center;
+}
+
+.Site__Map-pagination-main {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.Site__Map-pagination-main a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Site__Map-pagination-main a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.Site__Map-pagination-main a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.footer__search__form {
+    background-color: #000;
+}
+
+.footer__search__form-map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.footer__search__form-map a {
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+.footer__search__form-map a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.footer__search__form-text {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 11px 30px 37px;
+}

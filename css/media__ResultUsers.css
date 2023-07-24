@@ -1,0 +1,361 @@
+@media screen and (min-width: 320px) {
+    /* .container {
+        max-width: 300px;
+    } */
+}
+
+@media screen and (min-width: 480px) {
+    /* .container {
+        max-width: 450px;
+    } */
+}
+
+@media screen and (min-width: 768px) {
+    /* .container {
+        max-width: 750px;
+    } */
+}
+
+@media screen and (min-width: 992px) {
+    /* .container {
+        max-width: 970px;
+    } */
+}
+
+@media screen and (min-width: 1200px) {
+    /* .container {
+        max-width: 1170px;
+    } */
+}
+
+@media screen and (min-width: 1600px) {
+    /* .container {
+        max-width: 1400px;
+    } */
+}
+
+
+@media screen and ((min-width: 1200px) and (max-width: 1600px)) {
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+
+@media screen and ((min-width: 992px) and (max-width: 1200px)) {
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 768px) and (max-width: 992px)) {
+    .user__information-header-top-title {
+        font-size: 20px;
+    }
+
+    .user__information-header-top-text {
+        font-size: 14px;
+    }
+
+    .result__users-forma-title {
+        font-size: 25px;
+    }
+
+    .search__form__title {
+        font-size: 30px;
+    }
+
+    .search__form__title h2 {
+        padding-top: 50px;
+    }
+
+    .search__form-main {
+        width: 700px;
+    }
+
+    .search__form-item {
+        width: 300px;
+        padding: 10px 5px;
+    }
+
+    .search__form-item input {
+        font-size: 20px;
+        width: 199px;
+    }
+
+    .search__form__select-date,
+    .search__form__select-month,
+    .search__form__select-year {
+        width: 100px;
+        padding: 10px 5px;
+    }
+
+    .search__from__age-from,
+    .search__from__age-to {
+        width: 245px;
+        padding: 0px 5px;
+    }
+
+    .search__from__age-from input,
+    .search__from__age-to input {
+        font-size: 20px;
+        width: 185px;
+    }
+
+    .search__form-button-input {
+        padding: 13px 10px 10px 10px;
+    }
+
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 480px) and (max-width: 768px)) {
+    .header__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user__information-header-top-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .result__users-content-img-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user__information-header-top-title {
+        font-size: 18px;
+    }
+
+    .user__information-header-top-text {
+        font-size: 14px;
+    }
+
+    .result__users-img img {
+        margin-bottom: 20px;
+    }
+
+    .result__users-forma-title {
+        font-size: 20px;
+    }
+
+    .user__information-header-top-img {
+        display: none;
+    }
+
+    .search__form__title {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .search__form__title h2 {
+        padding-top: 50px;
+    }
+
+    .search__form-main {
+        width: 450px;
+    }
+
+    .serach__form__name-lastname,
+    .search__form__country-city {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search__form-lastname {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .search__form-city {
+        margin-left: 0;
+    }
+
+    .search__form-item {
+        width: 300px;
+        padding: 10px 5px;
+    }
+
+    .search__form-item input {
+        font-size: 20px;
+        width: 199px;
+    }
+
+    .search__form__select-date,
+    .search__form__select-month,
+    .search__form__select-year {
+        width: 125px;
+        padding: 10px 5px;
+    }
+
+    .search__from__age-from,
+    .search__from__age-to {
+        width: 145px;
+        padding: 0px 5px;
+    }
+
+    .search__from__age-from input,
+    .search__from__age-to input {
+        font-size: 20px;
+        width: 95px;
+        padding: 10px 0;
+    }
+
+    .search__form-button-input {
+        padding: 10px 7px 7px 7px;
+    }
+
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 320px) and (max-width: 480px)) {
+    .header__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__title-h1 h1 {
+        padding-top: 20px;
+    }
+
+    .header__logo img {
+        width: 300px;
+    }
+
+    .user__information-header-top-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .user__information-header-top-title {
+        font-size: 18px;
+    }
+
+    .user__information-header-top-text {
+        font-size: 14px;
+    }
+
+    .user__information-header-top-img img {
+        width: 300px;
+    }
+
+    .result__users-content-img-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .result__users-img img {
+        width: 200px;
+        margin: 20px 0px;
+    }
+
+    .user__information-header-top-img {
+        display: none;
+    }
+
+    .result__users-content {
+        padding: 0;
+    }
+
+    .Site__Map-pagination-main a {
+        padding: 5px 13px;
+    }
+
+    .result__users-forma-title {
+        font-size: 20px;
+    }
+
+    .search__form__title {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .search__form__title h2 {
+        padding-top: 50px;
+    }
+
+    .search__form-main {
+        width: 300px;
+    }
+
+    .serach__form__name-lastname,
+    .search__form__country-city {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search__form-lastname {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .search__form-city {
+        margin-left: 0;
+    }
+
+    .search__form-item {
+        width: 255px;
+        padding: 10px 5px;
+    }
+
+    .search__form-item input {
+        font-size: 20px;
+        width: 150px;
+    }
+
+    .search__form__Date-Month-Year {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search__form__select-date,
+    .search__form__select-month,
+    .search__form__select-year {
+        width: 225px;
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+    .search__form__select-date,
+    .search__form__select-month {
+        margin-bottom: 10px;
+    }
+
+    .search__from__age-from,
+    .search__from__age-to {
+        width: 125px;
+        padding: 0px 5px;
+    }
+
+    .search__from__age-from input,
+    .search__from__age-to input {
+        font-size: 20px;
+        width: 65px;
+        padding: 6px 0;
+    }
+
+    .search__form-button-input {
+        padding: 10px 7px 7px 7px;
+    }
+
+    .result__users-button {
+        margin-bottom: 20px;
+    }
+
+    .footer__search__form-text {
+        text-align: center;
+    }
+}

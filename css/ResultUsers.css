@@ -1,0 +1,375 @@
+body {
+    min-height: 100vh;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #000;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.header__title {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__button {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+}
+
+.header__logo img {
+    width: 350px;
+}
+
+.user__information-header-top-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user__information-header-top-title {
+    text-align: center;
+    font-size: 36px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.user__information-header-top-text {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.user__information-header-top-img img {
+    width: 350px;
+}
+
+.yakor__button{
+    display: flex;
+    justify-content: center;
+}
+
+.yakor{
+    padding: 10px 10px 8px 11px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 900;
+    max-width: 200px; 
+    border: 0;
+    border-radius: 15px;
+}
+
+.yakor:hover{
+    background-color: #7e7d7d;
+    color: #000;
+}
+
+.yakor__item{
+    margin: 30px 0;
+}
+
+.result__users-blocks {
+    display: block;
+    justify-content: center;
+}
+
+.result__users-block-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.result__users-content{
+    background-color: #fffafa;
+    padding: 40px 40px 40px 70px;
+    border-radius: 20px;
+}
+
+.result__users-content-img-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    word-break: break-all;
+}
+
+.result__users-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.result__users-title {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 0;
+    text-align: center;
+    color: #000;
+}
+
+.result__users-content {
+    width: 100%;
+    max-width: 700px;
+    font-size: 14px;
+    color: #A4A4A4;
+}
+
+.result__users-text{
+    word-wrap: break-word;
+}
+
+.result__users-text p{
+    padding: 7px;
+}
+
+.result__users-text strong{
+    margin-right: 5px;
+}
+
+.result__users-button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.result__users-button input {
+    padding: 10px 10px 8px 11px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 900;
+    min-width: 190px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.result__users-button input:hover {
+    background-color: #7e7d7d;
+    color: #000;
+}
+
+/*Pagination 2 Start*/
+.Site__Map-paggination-wrapper {
+    text-align: center;
+}
+
+.Site__Map-pagination-main {
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.Site__Map-pagination-main a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Site__Map-pagination-main a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.Site__Map-pagination-main a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+/*Pagination 2 End*/
+
+
+.result__users-forma{
+    background-color: #fffafa;
+}
+
+.search__form-main {
+    padding: 20px 20px;
+    border: 2px solid #565657;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(217, 216, 216);
+    margin-bottom: 50px;
+}
+
+.search__form-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.result__users-forma-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
+}
+
+.serach__form__name-lastname {
+    display: flex;
+}
+
+.search__form-lastname {
+    margin-left: 20px;
+}
+
+.search__form__country-city {
+    display: flex;
+}
+
+.search__form-city {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.search__form-country {
+    margin-top: 10px;
+}
+
+.search__form-item {
+    width: 400px;
+    padding: 17px 29px;
+    font-size: 20px;
+    border: 1px solid #565657;
+    border-radius: 15px;
+    background-color: #ececec;
+}
+
+.search__form-item input {
+    background-color: #ececec;
+    font-size: 20px;
+}
+
+.search__form-DateBirth h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.search__form__Date-Month-Year {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search__form__select-date,
+.search__form__select-month,
+.search__form__select-year {
+    padding: 17px 40px;
+    font-size: 20px;
+    border: 1px solid #565657;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: #ececec;
+}
+
+.search__from__age-from-to {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search__form-age h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.search__from__age-from,
+.search__from__age-to {
+    padding: 0px 10px;
+    font-size: 20px;
+    border: 1px solid #565657;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ececec;
+}
+
+.search__from__age-from input,
+.search__from__age-to input {
+    background-color: #ececec;
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+.search__from__age-to {
+    margin-left: 20px;
+}
+
+.search__form-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.search__form-button-input {
+    padding: 19px 19px 17px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 900;
+    min-width: 190px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.search__form-button-input:hover {
+    background-color: #7e7d7d;
+    color: #000;
+}
+
+.footer__search__form {
+    background-color: #000;
+}
+
+.footer__search__form-map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.footer__search__form-map a {
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+.footer__search__form-map a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.footer__search__form-text {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 11px 30px 37px;
+}

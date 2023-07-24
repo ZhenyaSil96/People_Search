@@ -1,0 +1,116 @@
+@media screen and (min-width: 320px) {
+    /* .container {
+        max-width: 300px;
+    } */
+}
+
+@media screen and (min-width: 480px) {
+    /* .container {
+        max-width: 450px;
+    } */
+}
+
+@media screen and (min-width: 768px) {
+    /* .container {
+        max-width: 750px;
+    } */
+}
+
+@media screen and (min-width: 992px) {
+    /* .container {
+        max-width: 970px;
+    } */
+}
+
+@media screen and (min-width: 1200px) {
+    /* .container {
+        max-width: 1170px;
+    } */
+}
+
+@media screen and (min-width: 1600px) {
+    /* .container {
+        max-width: 1400px;
+    } */
+}
+
+
+
+@media screen and ((min-width: 1200px) and (max-width: 1600px)) {
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+
+@media screen and ((min-width: 992px) and (max-width: 1200px)) {
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 768px) and (max-width: 992px)) {
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 480px) and (max-width: 768px)) {
+    .header__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Site__Map-title {
+        font-size: 25px;
+    }
+
+    .Site__Map-content-li a {
+        font-size: 15px;
+    }
+
+    .Site__Map-pagination-main a {
+        padding: 4px 10px;
+    }
+
+    .footer__search__form-text {
+        text-align: center;
+    }
+}
+
+@media screen and ((min-width: 320px) and (max-width: 480px)) {
+    .header__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__title-h1 h1 {
+        padding-top: 20px;
+    }
+
+    .header__logo img {
+        width: 300px;
+    }
+
+    .Site__Map-title {
+        font-size: 25px;
+    }
+
+    .Site__Map-content-li a {
+        font-size: 15px;
+    }
+
+    .Site__Map-pagination-main a {
+        padding: 4px 10px;
+    }
+
+    .pagination2 ul li {
+        /* width: 10px; */
+    }
+
+    .footer__search__form-text {
+        text-align: center;
+    }
+}

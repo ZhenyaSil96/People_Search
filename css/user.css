@@ -1,0 +1,473 @@
+body {
+    min-height: 100vh;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #000;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    align-items: flex-end;
+}
+
+.header__title {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__button {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+}
+
+.yakor__button{
+    display: flex;
+    justify-content: center;
+}
+.yakor{
+    padding: 10px 10px 8px 11px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 900;
+    max-width: 200px; 
+    border: 0;
+    border-radius: 15px;
+}
+.yakor:hover{
+    background-color: #7e7d7d;
+    color: #000;
+}
+
+.header__logo img {
+    width: 350px;
+}
+
+.user__information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__information-wrapper{
+    width: 100%;
+    max-width: 800px;
+}
+
+.person__information-background{
+    background-color: #fffafa;
+}
+
+.user__information-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.user__information-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.user__information-text {
+    width: 100%;
+    max-width: 800px;
+    line-height: 25px;
+    word-wrap: break-word;
+}
+
+.user__information-text h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.user__information-text p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.user__information-text strong {
+    margin-right: 5px;
+}
+
+.user__information-phone img,
+.user__information-vk img,
+.user__information-skype img,
+.user__information-twitter img,
+.user__information-facebook img,
+.user__information-instagram img
+{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.user__information-eduction img{
+    width: 35px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.user__information-phone,
+.user__information-vk,
+.user__information-skype,
+.user__information-twitter,
+.user__information-facebook,
+.user__information-instagram,
+.user__information-eduction
+{
+    display: flex;
+}
+
+.user__information-height{
+    padding-top: 5px;
+    line-height: 20px;
+}
+
+/* slide start */
+
+.slider-wrapp {
+    margin: 50px 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+/* .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  } */
+
+/* On smaller screens, decrease text size */
+
+/* @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  } */
+/* slide end */
+
+.user__information__namesake-title {
+    margin: 20px 0;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.user__information__namesake-blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.user__information-block-style {
+    background-color: #fffafa;
+    padding: 20px 0;
+    margin: 0 10px;
+}
+
+.user__information__namesake-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.user__information__namesake-name-surname {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.user__information__namesake-user-country,
+.user__information__namesake-user-birthday {
+    font-size: 14px;
+    color: #A4A4A4;
+    text-align: center;
+}
+
+.user__information__namesake-user-button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.user__information__namesake-user-button input {
+    padding: 10px 10px 8px 11px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 900;
+    min-width: 190px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.user__information__namesake-user-button input:hover {
+    background-color: #7e7d7d;
+    color: #000;
+}
+
+.result__users-forma{
+    background-color: #fffafa;
+}
+
+.result__users-forma-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 50px;
+}
+
+.search__form-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.search__form-main {
+    padding: 20px 20px;
+    border: 2px solid #565657;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(217, 216, 216);
+    margin-bottom: 50px;
+}
+
+.serach__form__name-lastname {
+    display: flex;
+}
+
+.search__form__country-city {
+    display: flex;
+}
+
+.search__form-item {
+    width: 400px;
+    padding: 17px 29px;
+    font-size: 20px;
+    border: 1px solid #565657;
+    border-radius: 15px;
+    background-color: #ececec;
+}
+
+.search__form-item input {
+    background-color: #ececec;
+    font-size: 20px;
+}
+
+.search__form-lastname {
+    margin-left: 20px;
+}
+
+.search__form-country {
+    margin-top: 10px;
+}
+
+.search__form-city {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.search__form-DateBirth h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.search__form__Date-Month-Year {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search__form__select-date,
+.search__form__select-month,
+.search__form__select-year {
+    padding: 17px 40px;
+    font-size: 20px;
+    border: 1px solid #565657;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: #ececec;
+}
+
+
+.search__from__age-from-to {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search__form-age h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.search__from__age-from,
+.search__from__age-to {
+    padding: 0px 10px;
+    font-size: 20px;
+    border: 1px solid #565657;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ececec;
+}
+
+.search__from__age-from input,
+.search__from__age-to input {
+    background-color: #ececec;
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+.search__from__age-to {
+    margin-left: 20px;
+}
+
+.search__form-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.search__form-button-input {
+    padding: 19px 19px 17px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 900;
+    min-width: 190px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.search__form-button-input:hover {
+    background-color: #7e7d7d;
+    color: #000;
+}
+
+
+.footer__search__form {
+    background-color: #000;
+}
+
+.footer__search__form-map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.footer__search__form-map a {
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+.footer__search__form-map a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.footer__search__form-text {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 11px 30px 37px;
+}
